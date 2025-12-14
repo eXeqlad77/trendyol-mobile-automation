@@ -1,0 +1,6 @@
+[90m2025-12-14T16:46:34.538Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Starting percy
+[90m2025-12-14T16:46:35.715Z[39m [31mERROR[39m [97m@wdio/browserstack-service[39m Unable to fetch percy project token
+[90m2025-12-14T16:46:35.718Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Error in percy setup Error: Could not start percy, check percy logs for info.
+    at BrowserstackLauncherService.setupPercy (file:///C:/Users/casper/Desktop/mobil-otomasyon/node_modules/@wdio/browserstack-service/build/index.js:9351:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async BrowserstackLauncherService.onPrepare (file:///C:/Users/casper/Desktop/mobil-otomasyon/node_modules/@wdio/browserstack-service/build/index.js:9218:9)

@@ -1,0 +1,156 @@
+[90m2025-12-14T16:46:32.955Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m BrowserStack service started with id: 93af65c7-0966-4401-a52b-e2dfd4c28dbc
+[90m2025-12-14T16:46:32.957Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m _options data: {"app":"bs://4fca7232a57811f6a792f49a77e275e85b6dcaf8","browserstackLocal":false}
+[90m2025-12-14T16:46:32.957Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m webdriver capabilities data: [{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"Samsung Galaxy S23","appium:platformVersion":"13.0","appium:app":"bs://4fca7232a57811f6a792f49a77e275e85b6dcaf8","bstack:options":{"projectName":"Trendyol Automation","buildName":"Android Test Build","sessionName":"Shopping Flow Test","userName":"sleymanyce_84E6BZ","accessKey":"gYagfs6isybr7hqFXcxg"}}]
+[90m2025-12-14T16:46:32.957Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m _config data: {"rootDir":"C:\\Users\\casper\\Desktop\\mobil-otomasyon","specs":["./features/**/*.feature"],"suites":{},"exclude":[],"capabilities":[],"logLevel":"info","logLevels":{},"groupLogsByTestSpec":false,"excludeDriverLogs":[],"bail":0,"waitforInterval":100,"waitforTimeout":30000,"framework":"cucumber","reporters":["spec",["allure",{"outputDir":"allure-results","disableWebdriverStepsReporting":false,"disableWebdriverScreenshotsReporting":false}]],"services":[["browserstack",{"app":"bs://4fca7232a57811f6a792f49a77e275e85b6dcaf8","browserstackLocal":false}]],"maxInstances":1,"maxInstancesPerCapability":100,"injectGlobals":true,"filesToWatch":[],"connectionRetryTimeout":120000,"connectionRetryCount":3,"execArgv":[],"runnerEnv":{"FORCE_COLOR":"1"},"runner":"local","shard":{"current":1,"total":1},"specFileRetries":0,"specFileRetriesDelay":0,"specFileRetriesDeferred":false,"autoAssertOnTestEnd":true,"reporterSyncInterval":100,"reporterSyncTimeout":5000,"cucumberFeaturesWithLineNumbers":[],"mochaOpts":{"timeout":10000},"jasmineOpts":{"defaultTimeoutInterval":10000},"cucumberOpts":{"timeout":60000,"require":["./features/step-definitions/shopping.steps.js"]},"onPrepare":[],"onWorkerStart":[],"onWorkerEnd":[],"before":[],"beforeSession":[],"beforeSuite":[],"beforeHook":[],"beforeTest":[],"beforeCommand":[],"afterCommand":[],"afterTest":[],"afterHook":[],"afterSuite":[],"afterSession":[],"after":[],"onComplete":[],"onReload":[],"beforeAssertion":[],"afterAssertion":[],"beforeFeature":[],"beforeScenario":[],"beforeStep":[],"afterStep":[],"afterScenario":[],"afterFeature":[],"_":["wdio.browserstack.conf.js","wdio.browserstack.conf.js"],"$0":"node_modules\\@wdio\\cli\\bin\\wdio.js","user":"sleymanyce_84E6BZ","key":"gYagfs6isybr7hqFXcxg"}
+[90m2025-12-14T16:46:32.969Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending SDK event with data {
+  userName: '[REDACTED]',
+  accessKey: '[REDACTED]',
+  event_type: 'SDKTestAttempted',
+  detectedFramework: 'WebdriverIO-cucumber',
+  event_properties: {
+    sdkRunId: '93af65c7-0966-4401-a52b-e2dfd4c28dbc',
+    testhub_uuid: undefined,
+    language_framework: 'WebdriverIO_cucumber',
+    referrer: 'WebdriverIO-cucumber/9.20.1',
+    language: 'WebdriverIO',
+    languageVersion: 'v22.16.0',
+    buildName: 'Android Test Build',
+    buildIdentifier: 'undefined',
+    os: 'Windows_NT',
+    hostname: 'ex',
+    productMap: {
+      observability: true,
+      accessibility: null,
+      percy: false,
+      automate: false,
+      app_automate: true
+    },
+    product: [ 'observability', 'app-automate' ],
+    framework: 'cucumber'
+  }
+}
+[90m2025-12-14T16:46:33.729Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel Event Response: "{\"message\":\"SDK Event recorded successfully\"}"
+[90m2025-12-14T16:46:33.729Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel event success
+[90m2025-12-14T16:46:33.731Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Using app: bs://4fca7232a57811f6a792f49a77e275e85b6dcaf8
+[90m2025-12-14T16:46:33.734Z[39m [33mWARN[39m [97m@wdio/browserstack-service[39m Accessibility Automation will run only on Chrome browsers.
+[90m2025-12-14T16:46:33.735Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending launch start event
+[90m2025-12-14T16:46:34.533Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [Start_Build] Success response: {"observability":{"success":true,"options":{"allow_screenshots":true}},"build_hashed_id":"fpekcwqukt5c3ke6oncoya7uqdj2bk1mx00l0gxb","jwt":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJicm93c2Vyc3RhY2tfb2IiLCJzdWIiOiIxMDQ0ODA0MiIsImdyb3VwX2lkIjoxMDM1OTk2OSwidXNlcl9pZCI6MTA0NDgwNDIsImJ1aWxkX2hhc2hlZF9pZCI6ImZwZWtjd3F1a3Q1YzNrZTZvbmNveWE3dXFkajJiazFteDAwbDBneGIiLCJwcm9qZWN0X25hbWUiOiJUcmVuZHlvbCBBdXRvbWF0aW9uIiwiaG9va19hc190ZXN0IjoiMSIsImJ1aWxkX25hbWUiOiJBbmRyb2lkIFRlc3QgQnVpbGQiLCJwcm9kdWN0X21hcCI6IntcIm9ic2VydmFiaWxpdHlcIjp0cnVlLFwib3JpZ2luRnJvbVByb2R1Y3RNYXBcIjpcIkFwcEF1dG9tYXRlXCIsXCJic3RhY2tBdXRvbWF0aW9uXCI6dHJ1ZSxcImNhZFwiOnRydWUsXCJhY2Nlc3NpYmlsaXR5QXV0b0VuYWJsZWRcIjpmYWxzZSxcIm5vblNES1wiOmZhbHNlLFwiYXBwX2F1dG9tYXRlXCI6dHJ1ZX0iLCJncnJfcmVnaW9uIjoiIiwiaXNfbG93X3ZvbHVtZSI6ZmFsc2UsImlzX2xjbmNfZXZlbnQiOmZhbHNlLCJzaWduaW5nX2tleV9oYXNoIjoiMzdjMTEzMWU0YjJlNzQzYzc2NmUxZDcwYmY1ZjJiNTdkYzY5YjE5NWQzMDBlMzJhZThkMDIzMTIwYTRhNmQ5NyIsImlhdCI6MTc2NTczMDc5NiwiZXhwIjoxNzY2MDc2Mzk2fQ.XbO3oyb50tW5B8WBKKIGPQX2hcyrfz7Z2khTZgXGhV0","app_automate":{"success":true,"options":{"allow_screenshots":true}}}
+[90m2025-12-14T16:46:34.534Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Testhub started with id: fpekcwqukt5c3ke6oncoya7uqdj2bk1mx00l0gxb
+[90m2025-12-14T16:46:35.512Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Percy binary is up to date (ETag unchanged)
+[90m2025-12-14T16:46:35.718Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m browserstackLocal is not enabled - skipping...
+[90m2025-12-14T16:47:07.186Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Skipping method: Console, exists: true, type: function
+[90m2025-12-14T16:47:07.544Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Requesting Browserstack session URL at https://api-cloud.browserstack.com/app-automate/sessions/7bcc18b43237263699f6b2e04c936c806225707e.json
+[90m2025-12-14T16:47:08.687Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m  session: https://app-automate.browserstack.com/builds/143ccc76f12c0fb47a468484343dd7b78cff8f16/sessions/7bcc18b43237263699f6b2e04c936c806225707e
+[90m2025-12-14T16:47:09.248Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId 7bcc18b43237263699f6b2e04c936c806225707e
+[90m2025-12-14T16:47:09.249Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api-cloud.browserstack.com/app-automate/sessions/7bcc18b43237263699f6b2e04c936c806225707e.json with request body: 
+[90m2025-12-14T16:47:09.971Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Driver capabilities used for integration object: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"samsung galaxy s23","chromedriverPorts":[[18133,18143]],"chromedriverArgs":["--adb-port=5038"],"automationName":"uiautomator2","systemPort":8203,"bundleID":"trendyol.com","bundleId":"trendyol.com","skipServerInstallation":true,"udid":"RFCW60S2QST","appPackage":"trendyol.com","appActivity":"com.trendyol.common.splash.impl.ui.SplashActivity","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"13.0"},"platformName":"Android","goog:chromeOptions":{},"newCommandTimeout":0,"deviceName":"RFCW60S2QST","chromedriverPorts":[[18133,18143]],"chromedriverArgs":["--adb-port=5038"],"automationName":"uiautomator2","systemPort":8203,"bundleID":"trendyol.com","bundleId":"trendyol.com","skipServerInstallation":true,"udid":"RFCW60S2QST","appPackage":"trendyol.com","appActivity":"com.trendyol.common.splash.impl.ui.SplashActivity","nativeWebScreenshot":true,"disableSuppressAccessibilityService":true,"platformVersion":"13","deviceUDID":"RFCW60S2QST","deviceApiLevel":33,"deviceScreenSize":"1080x2340","deviceScreenDensity":480,"deviceModel":"SM-S911B","deviceManufacturer":"samsung","pixelRatio":3,"statBarHeight":81,"viewportRect":{"left":0,"top":81,"width":1080,"height":2034}}
+[90m2025-12-14T16:47:09.971Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m User capabilities used for integration object: {"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"Samsung Galaxy S23","appium:platformVersion":"13.0","appium:app":"bs://4fca7232a57811f6a792f49a77e275e85b6dcaf8","bstack:options":{"projectName":"Trendyol Automation","buildName":"Android Test Build","sessionName":"Shopping Flow Test","userName":"sleymanyce_84E6BZ","accessKey":"gYagfs6isybr7hqFXcxg","wdioService":"9.20.1","testhubBuildUuid":"fpekcwqukt5c3ke6oncoya7uqdj2bk1mx00l0gxb","buildProductMap":{"observability":true,"accessibility":null,"percy":false,"automate":false,"app_automate":true}}}
+[90m2025-12-14T16:47:09.971Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Got platformVersion from driver caps
+[90m2025-12-14T16:47:09.972Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2025-12-14T16:47:10.191Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2025-12-14T16:47:10.274Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
+[90m2025-12-14T16:47:11.987Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 3, Queue length after removal = 0
+[90m2025-12-14T16:47:11.987Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2025-12-14T16:47:11.987Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 3
+[90m2025-12-14T16:47:12.454Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2025-12-14T16:47:12.454Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 3
+[90m2025-12-14T16:47:30.939Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2025-12-14T16:47:31.302Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2025-12-14T16:47:31.548Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
+[90m2025-12-14T16:47:31.850Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
+[90m2025-12-14T16:47:32.049Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 4, Queue length after removal = 0
+[90m2025-12-14T16:47:32.049Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2025-12-14T16:47:32.049Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 4
+[90m2025-12-14T16:47:32.107Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2025-12-14T16:47:32.370Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2025-12-14T16:47:32.541Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2025-12-14T16:47:32.541Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 4
+[90m2025-12-14T16:47:32.590Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
+[90m2025-12-14T16:47:32.744Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
+[90m2025-12-14T16:47:32.769Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Accessibility after scenario hook. Before sending test stop event
+[90m2025-12-14T16:47:32.769Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Flushing CBT Data Queue 30e3cbd7-f9bd-41d3-954e-8a15c4ef4a96
+[90m2025-12-14T16:47:32.770Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 5
+[90m2025-12-14T16:47:32.781Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId 7bcc18b43237263699f6b2e04c936c806225707e
+[90m2025-12-14T16:47:32.781Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api-cloud.browserstack.com/app-automate/sessions/7bcc18b43237263699f6b2e04c936c806225707e.json with request body: 
+[90m2025-12-14T16:47:33.848Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown started
+[90m2025-12-14T16:47:33.849Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m shutdown started
+[90m2025-12-14T16:47:33.849Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Shutting down request queue
+[90m2025-12-14T16:47:33.849Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind SHUTDOWN_QUEUE
+[90m2025-12-14T16:47:33.849Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 5
+[90m2025-12-14T16:47:34.042Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [BATCH_DATA] Success response: {"success":true}
+[90m2025-12-14T16:47:34.042Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events success 5
+[90m2025-12-14T16:47:34.043Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m shutdown ended
+[90m2025-12-14T16:47:34.043Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown ended
+[90m2025-12-14T16:47:36.912Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2025-12-14T16:47:36.912Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Force request-queue shutdown, as test run event is received after teardown
+[90m2025-12-14T16:47:36.912Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 1, Queue length after removal = 0
+[90m2025-12-14T16:47:36.912Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2025-12-14T16:47:36.912Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 1
+[90m2025-12-14T16:47:37.488Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Inside OnComplete hook..
+[90m2025-12-14T16:47:37.489Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending stop launch event
+[90m2025-12-14T16:47:38.102Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [STOP_BUILD] Success response: 
+[90m2025-12-14T16:47:40.127Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m BrowserStack service run ended for id: 93af65c7-0966-4401-a52b-e2dfd4c28dbc testhub id: fpekcwqukt5c3ke6oncoya7uqdj2bk1mx00l0gxb
+[90m2025-12-14T16:47:40.130Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Reading worker file worker-data-18912.json
+[90m2025-12-14T16:47:40.151Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending SDK event with data {
+  userName: '[REDACTED]',
+  accessKey: '[REDACTED]',
+  event_type: 'SDKTestSuccessful',
+  detectedFramework: 'WebdriverIO-cucumber',
+  event_properties: {
+    sdkRunId: '93af65c7-0966-4401-a52b-e2dfd4c28dbc',
+    testhub_uuid: 'fpekcwqukt5c3ke6oncoya7uqdj2bk1mx00l0gxb',
+    language_framework: 'WebdriverIO_cucumber',
+    referrer: 'WebdriverIO-cucumber/9.20.1',
+    language: 'WebdriverIO',
+    languageVersion: 'v22.16.0',
+    buildName: 'Android Test Build',
+    buildIdentifier: 'undefined',
+    os: 'Windows_NT',
+    hostname: 'ex',
+    productMap: {
+      observability: true,
+      accessibility: null,
+      percy: false,
+      automate: false,
+      app_automate: true
+    },
+    product: [ 'observability', 'app-automate' ],
+    framework: 'cucumber',
+    productUsage: {
+      testObservability: {
+        enabled: true,
+        manuallySet: false,
+        buildHashedId: 'fpekcwqukt5c3ke6oncoya7uqdj2bk1mx00l0gxb',
+        events: {
+          buildEvents: {
+            started: { isTriggered: true, status: 'success', error: undefined },
+            finished: { isTriggered: true, status: 'success', error: undefined }
+          },
+          testEvents: {
+            started: { triggeredCount: 1, sentCount: 1, failedCount: 0 },
+            finished: { triggeredCount: 1, sentCount: 1, failedCount: 0 },
+            skipped: { triggeredCount: 1, sentCount: 1, failedCount: 0 }
+          },
+          hookEvents: {
+            started: { triggeredCount: 0, sentCount: 0, failedCount: 0 },
+            finished: { triggeredCount: 0, sentCount: 0, failedCount: 0 }
+          },
+          logEvents: {
+            triggeredCount: 10,
+            sentCount: 10,
+            failedCount: 0,
+            http: { triggeredCount: 10, sentCount: 10, failedCount: 0 }
+          },
+          cbtSessionEvents: { triggeredCount: 0, sentCount: 0, failedCount: 0 }
+        }
+      }
+    }
+  }
+}
+[90m2025-12-14T16:47:40.528Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel Event Response: "{\"message\":\"SDK Event recorded successfully\"}"
+[90m2025-12-14T16:47:40.528Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Funnel event success
+[90m2025-12-14T16:47:41.479Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Upload response: {
+  "status": "success",
+  "message": "Logs upload successful in file - logs.tar.gz"
+}
+2025-12-14T16:47:44.702Z DEBUG @wdio/browserstack-service Successfully uploaded performance events Bravo
